@@ -10,16 +10,16 @@ const packageConfig = {
     // basic
     name: 'gm-img',
     version: '0.0.1',
-    description: 'the tools to merge images for game maker studio 2',
-    homepage: '',
+    description: 'a tools to merge images for game maker studio 2',
+    homepage: 'https://github.com/wujohns/gm-img',
     license: 'MIT',
 
     // about repo
     repository: {
         type: 'git',
-        url: ''
+        url: 'https://github.com/wujohns/gm-img'
     },
-    bugs: { url: '' },
+    bugs: { url: 'https://github.com/wujohns/gm-img/issues' },
 
     // keywords
     keywords: ['gm', 'game maker', 'image', 'merge'],

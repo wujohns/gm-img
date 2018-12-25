@@ -1,12 +1,12 @@
 {
   "name": "gm-img",
   "version": "0.0.1",
-  "description": "the tools to merge images for game maker studio 2",
+  "description": "a tools to merge images for game maker studio 2",
   "homepage": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/wujohns/gm-img"
   },
   "bugs": {
     "url": ""
