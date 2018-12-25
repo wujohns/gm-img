@@ -1,0 +1,29 @@
+{
+  "name": "gm-img",
+  "version": "0.0.1",
+  "description": "the tools to merge images for game maker studio 2",
+  "homepage": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "gm",
+    "game maker",
+    "image",
+    "merge"
+  ],
+  "main": "index.js",
+  "bin": {
+    "gmm": "cli.js"
+  },
+  "dependencies": {
+    "merge-img": "^2.1.2",
+    "lodash": "^4.17.10",
+    "commander": "^2.9.0"
+  }
+}
