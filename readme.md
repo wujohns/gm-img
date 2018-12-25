@@ -6,7 +6,7 @@ using `npm install -g gm-img` to install
 
 ## Usage
 ```
-Usage: cli [options] [command]
+Usage: gmm [options] [command]
 
 a tools to merge images for game maker studio 2
 

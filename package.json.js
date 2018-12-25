@@ -9,7 +9,7 @@
 const packageConfig = {
     // basic
     name: 'gm-img',
-    version: '0.0.2',
+    version: '0.0.3',
     description: 'a tools to merge images for game maker studio 2',
     homepage: 'https://github.com/wujohns/gm-img',
     license: 'MIT',
