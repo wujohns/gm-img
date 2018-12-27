@@ -9,7 +9,7 @@
 const packageConfig = {
     // basic
     name: 'gm-img',
-    version: '0.0.3',
+    version: '0.0.4',
     description: 'a tools to merge images for game maker studio 2',
     homepage: 'https://github.com/wujohns/gm-img',
     license: 'MIT',
@@ -39,6 +39,8 @@ const packageConfig = {
         'commander': '^2.9.0'
     }
 };
+
+module.exports = packageConfig;
 
 const fs = require('fs');
 const path = require('path');

@@ -7,6 +7,7 @@
 'use strict';
 
 const _ = require('lodash');
+const path = require('path');
 const fs = require('fs');
 const mergeImg = require('merge-img');
 
@@ -35,10 +36,10 @@ module.exports = (config, callback) => {
         }
         sortedFiles = [];
         for (let i = start; i < len; i++) {
-            sortedFiles.push(files[i]);
+            sortedFiles.push(path.join(config.dir, files[i]));
         }
         for (let i = 0; i < start; i++) {
-            sortedFiles.push(files[i]);
+            sortedFiles.push(path.join(config.dir, files[i]));
         }
     }
 
